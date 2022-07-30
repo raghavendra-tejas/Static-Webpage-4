@@ -1,0 +1,44 @@
+.navbar-container {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-left img {
+  margin-left: 100px;
+  width: 150px;
+}
+
+.nav-mid {
+  flex: 1;
+  margin: 0 200px 0 100px;
+  max-width: 1200px;
+}
+
+.nav-mid-list-item {
+  display: inline;
+  margin-right: 50px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: x-small;
+  font-family: "Poppins";
+  color: #c4c4c4;
+}
+
+.nav-mid-list-item:hover {
+  color: #000000;
+  font-weight: 400;
+}
+
+.nav-right button {
+  margin-right: 100px;
+  height: 40px;
+  width: 130px;
+  background-color: #5955b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: x-small;
+}
